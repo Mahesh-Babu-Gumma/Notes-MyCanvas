@@ -1,0 +1,97 @@
+body {
+    background-color: #ffffff9e;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    /*background-image: url('https://cdn.pixabay.com/photo/2024/10/30/02/18/transformation-9160373_640.jpg');*/
+    background-color: #000;
+    color: #f5f8d7;
+    padding: 5px 10px;
+}
+.header-container {
+    display: flex; /* Use flexbox to align items horizontally */
+    align-items: center; /* Vertically center items */
+    justify-content: space-between; /* Space between logo and nav */
+    padding-left: 15px;
+    
+}
+
+.logo {
+    
+    width: 70px; /* Width of the logo container */
+    height: 70px; /* Height of the logo container */
+    overflow: hidden; /* Hide overflow from the image */
+    border-radius: 50%; /* Make it circular */
+}
+
+.logo-image {
+    width: 100%; /* Fill the container */
+    height: 100%; /* Fill the container */
+    object-fit: cover; /* Ensure the image covers the entire area */
+}
+nav {
+    background-size: cover; /* Cover the nav area */
+    padding: 5px; /* Add some padding */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 5px;
+}
+
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+    border: 1px solid #000000; /* Border around the h1 */
+    padding: 5px; /* Padding inside the border */
+    margin: 0; /* Remove default margin */
+    display: inline-block; /* Fit the border tightly around the text */
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+main {
+    padding: 10px;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: right;
+    padding: 10px 0px;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+#video-section {
+    display: flex; /* Use flexbox to center */
+    flex-direction: column; /* Align items vertically */
+    align-items: center; /* Center horizontally */
+    margin: 20px 0; /* Add some margin above and below */
+}
+
+iframe {
+    width: auto; /* Maximum width for larger screens */
+    height: auto; /* Set height */
+}
